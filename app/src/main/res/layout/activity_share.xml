@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/tan_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShareActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:text="@string/nama"
+            android:background="@color/category_numbers"
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:paddingBottom="8dp"
+            android:layout_marginTop="16dp"
+            style="@style/HeaderTextStyle2"/>
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:text="@string/tanya"
+            android:background="@color/category_numbers"
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:paddingBottom="8dp"
+            android:layout_marginTop="16dp"
+            style="@style/HeaderTextStyle2"/>
+
+        <RadioButton
+            android:id="@+id/radio_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:textSize="16sp"
+            android:text="@string/gempa_yes"/>
+
+        <RadioButton
+            android:id="@+id/radio_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:textSize="16sp"
+            android:text="@string/gempa_no"/>
+
+        <TextView
+            android:text="@string/tell_me"
+            android:background="@color/category_numbers"
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:paddingBottom="8dp"
+            android:layout_marginTop="16dp"
+            style="@style/HeaderTextStyle2"/>
+
+        <EditText
+            android:id="@+id/tellingMe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/telling"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_phrases"
+            android:layout_marginTop="16dp"
+            android:onClick="submitOrder"
+            android:text="@string/send"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

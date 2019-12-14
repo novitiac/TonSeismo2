@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">TonSeismo</string>
+
+    <!-- Default text to show with the earthquake location ("Near the Pacific-Antarctic Ridge")
+         if no specific kilometer distance from the primary location is given [CHAR LIMIT=30] -->
+    <string name="near_the">Near the</string>
+
+    <!-- Nama category untuk penjelasan umum tentang gempa  -->
+    <string name="category_todo">What to Do?</string>
+
+    <!-- Nama category untuk data gempa menggunakan API [CHAR LIMIT=20] -->
+    <string name="category_share">Share Experience</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_earthquake">Latest Earthquake</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_rate">App Rate</string>
+
+    <string name="category_prepare">Prepare</string>
+
+    <!-- Nama category untuk data gempa menggunakan API [CHAR LIMIT=20] -->
+    <string name="category_survive">Survive</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_recover">Recover</string>
+
+    <string name="prepare_title">Prepare</string>
+
+    <string name="isi_prepare">Sebelum gempa besar berikutnya, kami merekomendasikan empat langkah
+        yang akan membuat Anda, keluarga, atau tempat kerja Anda lebih siap untuk bertahan hidup dan
+        pulih dengan cepat</string>
+
+    <string name="content_step1">Amankan ruang Anda dengan mengidentifikasi bahaya 
+        dan mengamankan barang yang bisa dipindahkan.</string>
+    
+    <string name="content_step2">Rencanakan untuk aman dengan membuat rencana bencana
+        dan memutuskan bagaimana Anda akan berkomunikasi dalam keadaan darurat.</string>
+
+    <string name="content_step3">Atur persediaan bencana di lokasi yang nyaman.</string>
+
+    <string name="content_step4">Minimalkan kesulitan keuangan dengan mengatur dokumen-dokumen penting,
+        memperkuat properti Anda, dan mempertimbangkan asuransi.</string>
+
+    <string name="survive_title">Survive</string>
+
+    <string name="isi_survive">Selama gempa bumi besar berikutnya, dan segera setelah itu, adalah ketika
+        tingkat kesiapsiagaan Anda akan membuat perbedaan dalam bagaimana Anda dan orang lain bertahan dan
+        dapat menanggapi keadaan darurat:</string>
+
+    <string name="content_step5">Drop, Cover, and Hold On ketika gempa bumi terjadi.</string>
+
+    <string name="content_step6">Tingkatkan keselamatan setelah gempa bumi dengan evakuasi jika perlu,
+        membantu yang terluka, dan mencegah cedera atau kerusakan lebih lanjut.</string>
+
+    <string name="recovery_title">Survive</string>
+
+    <string name="isi_recovery">Selama gempa bumi besar berikutnya, dan segera setelah itu, adalah ketika
+        tingkat kesiapsiagaan Anda akan membuat perbedaan dalam bagaimana Anda dan orang lain bertahan dan
+        dapat menanggapi keadaan darurat:</string>
+
+    <string name="content_step7">Reconnect and Restore. Kembalikan kehidupan sehari-hari dengan berhubungan
+        kembali dengan orang lain, memperbaiki kerusakan, dan membangun kembali komunitas.</string>
+
+    <string name="nama">Nama:</string>
+    <string name="name">Nama Anda</string>
+    <string name="tanya">Pernah mengalami gempa?</string>
+    <string name="gempa_yes">Ya, pernah</string>
+
+    <string name="gempa_no">Tidak pernah</string>
+    <string name="tell_me">Ceritakan pengalaman Anda:</string>
+    <string name="telling">Bagikan pengalaman gempa bumi yang pernah kalian alami</string>
+    <string name="send">Share</string>
+    <string name="summary">Share experience for </string>
+    <string name="order_summary_whipped_cream">Pernah merasakan gempa?</string>
+    <string name="order_summary_chocolate">Tidak pernah merasakan gempa?</string>
+    <string name="order_summary_price">Cerita Anda </string>
+    <string name="thank_you">Terima kasih</string>
+    <string name="multi1">What to Do?</string>
+    <string name="multi2">Share Experience</string>
+    <string name="multi3">Latest Earthquake</string>
+    <string name="multi4">App Rate</string>
+    <string name="prepare">Prepare Phase</string>
+    <string name="survive">Survive Phase</string>
+    <string name="recover">Recover Phase</string>
+</resources>
